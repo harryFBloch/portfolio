@@ -24,7 +24,7 @@ class App extends Component {
           <Row>
             <ProjectsContainer/>
           </Row>
-          <ParalaxComponent image="https://www.designyourway.net/blog/wp-content/uploads/2018/12/programming-world-map-on.jpg"/>
+          <ParalaxComponent image="http://www.mobileswall.com/wp-content/uploads/2013/11/640-Programming-Code-l.jpg"/>
           <Row>
             <BlogContainer/>
           </Row>
