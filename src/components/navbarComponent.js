@@ -1,15 +1,15 @@
 import React, {Component} from 'react'
-import { Navbar, NavItem} from 'react-materialize'
-import {NavLink} from 'react-router-dom'
+import { Navbar} from 'react-materialize'
 
 export default class NavBarComponent extends Component{
 
   render() {
       return (
         <Navbar brand="Harry Bloch's Portfolio" right >
-          <li><NavLink to="/about">About</NavLink></li>
-          <li><NavLink to="/projects">Projects</NavLink></li>
-          <li><NavLink to="/blog">Blog</NavLink></li>
+          <li><a onClick={() => document.getElementById('About').scrollIntoView()}>About</a></li>
+          <li><a onClick={() => document.getElementById('Projects').scrollIntoView()}>Projects</a></li>
+          <li><a onClick={() => document.getElementById('Blog').scrollIntoView()}>Blog</a></li>
+          <li><a onClick={() => document.getElementById('Contact').scrollIntoView()}>Contact</a></li>
         </Navbar>
       )
     }

@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
-import {Parallax, Row} from 'react-materialize'
+import {Row} from 'react-materialize'
+import {Parallax} from 'react-parallax'
 
 export default class ParalaxComponent extends Component {
 
   render(){
     return (
       <Row>
-        <Parallax imageSrc="https://www.thoughtco.com/thmb/DF3Q0T5_0O5CmGBTCWCBTcyGgmw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/JavaScript-58acbb8a3df78c345bad32c2.jpg"></Parallax>
+      <Parallax bgImage={this.props.image} blur={{ min: -1, max: 3 }} strength={500}>
+        <div style={{ height: 500 }}>
+        </div>
+      </Parallax>
       </Row>
      )
   }
