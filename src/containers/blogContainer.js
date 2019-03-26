@@ -12,11 +12,11 @@ export default class BlogContainer extends Component{
       <Carousel options={{fullWidth: true,indicators: true}} className="white-text center" >
         <BlogComponent link="https://harryfbloch.github.io/goalie-tracker_react_redux_final_project"
         title="Goalie-Tracker React/Redux Final Project"
-        description="For my final project at flatiron school I was tasked with using all my knowledge learn in the course to create a single page web app..."/>
+        description="For my final project at Flatiron school I was tasked with using all of my knowledge learned in the course to create a single page web app...."/>
 
         <BlogComponent link="https://harryfbloch.github.io/storytime_javascript_project"
         title="StoryTime JavaScript Project"
-        description="For this months project at flatiron school I was tasked with going back over my last project Storytime that is a full rails app, and add an api to the project along with ajax calls instead of reloading the page every time a button is pressed..."/>
+        description="For this months project at flatiron school I was tasked with going back over my last project Storytime...."/>
 
         <BlogComponent link="https://harryfbloch.github.io/the_importance_of_event_listeners"
         title="The Importance Of Event Listeners"
@@ -24,7 +24,7 @@ export default class BlogContainer extends Component{
 
         <BlogComponent link="https://harryfbloch.github.io/storytime_rails_project"
         title="Storytime Rails Project"
-        description="For my third project for the flatiron school online web developer bootcamp. I chose to create a web app called storytime..."/>
+        description="For my third project at the flatiron school online web developer bootcamp. I chose to create a web app called storytime..."/>
 
         <BlogComponent link="https://harryfbloch.github.io/has-many_trough_tutorial"
         title="has-many trough Tutorial"
