@@ -7,7 +7,7 @@ export default class ParalaxComponent extends Component {
   render(){
     return (
       <Row>
-      <Parallax bgImage={this.props.image} blur={{ min: -1, max: 3 }} strength={500}>
+      <Parallax bgImage={this.props.image} strength={500}>
         <div style={{ height: 500 }}>
         </div>
       </Parallax>
